@@ -1,4 +1,4 @@
-version: 0.0
+loyversion: 0.0
 os: linux
 files:
   - source: dist/my-angular-project
@@ -14,5 +14,5 @@ permissions:
       - directory
 hooks:
   ApplicationStart:
-    - location: application-start-hook.sh
+    - location: /deploy-scripts/application-start-hook.sh
       timeout: 300
