@@ -15,5 +15,5 @@ permissions:
 hooks:
   ApplicationStart:
     - location: application-start-hook.sh
-      timeout: 6000
-      
+      timeout: 300
+      runas: ec2-user
