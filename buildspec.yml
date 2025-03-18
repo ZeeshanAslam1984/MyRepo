@@ -10,7 +10,7 @@ phases:
       - npm install
   build:
     commands:
-      - ng build -c production
+      - ng build -c productio
     finally:
       - echo 'This is the finally block execution!'
 artifacts:
