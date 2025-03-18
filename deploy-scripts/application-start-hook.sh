@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo serivce nginx restart
+sudo serivce nginx restar
